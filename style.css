@@ -29,6 +29,8 @@
 .text-center{text-align: center;}
 .flex{display: flex;}
 .grid{display: grid;}
+.justify-center{justify-content: center;}
+.align-center{align-items: center;}
 .primary-btn{padding: 21px 40px;border-radius: 48px;color: #FFF;font-size: var(--text-m);font-weight: 600;border: 0px;background-color: var(--theme-color);}
 
 
@@ -73,8 +75,15 @@ header > nav{
 
                        /* banner section */
 .banner{align-items: center;}
-.banner-content{padding: 148px 309px 148px 244px;}
+.banner-content{padding: 148px 300px 148px 240px;}
 .banner-img{margin-right: 240px;}
 .banner-details{margin-top: 24px;margin-bottom: 41px;}
 .banner-details :nth-child(2){margin: 15px auto;}
-.banner-content{background-image: url(img/Group\ 14.png);background-repeat: no-repeat;}
+.banner-content{background-image: url(img/Group\ 14.png);background-repeat: no-repeat;background-size: 100% 100%;}
+
+
+              /* Gamer section */
+.gamer{justify-content: space-between;margin: auto 240px;}
+.gamer-content{text-align: right;margin: 95px auto;}
+.gamer-section{background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);}
+.gamer-content :nth-child(2){line-height: 30px;margin: 24px auto 36px auto;}
