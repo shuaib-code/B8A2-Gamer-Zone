@@ -90,6 +90,20 @@ header > nav{
 .gamer-content :nth-child(2){line-height: 30px;margin: 24px auto 36px auto;}
 
 
+
+            /* online games */
+
+.online-games{margin: 120px 240px 0px 240px;}
+.online-games-container{display: flex;gap: 24px;}
+.card-container{position: relative;}
+.overlay-content{position: absolute;text-align: center;width: 337px;height: 395px;border: 5px solid var(--theme-color);border-radius: 5px;transform: translateY(-100%);background-color: rgba(0, 0, 0, 0.20);visibility: hidden;}
+.card-container:hover .overlay-content{visibility: visible;}
+.overlay-content :nth-child(1){margin-top: 50%;}
+.overlay-content > img{
+    border: 3px solid white;border-radius:100%;background-color: #ffffff5a;cursor: pointer;
+}
+
+
         /* cross image section */
 
 .cross-img-container{margin: 120px 240px 150px 390px;gap: 250px;}
