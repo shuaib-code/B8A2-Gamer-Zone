@@ -90,6 +90,14 @@ header > nav{
 .gamer-content :nth-child(2){line-height: 30px;margin: 24px auto 36px auto;}
 
 
+        /* cross image section */
+
+.cross-img-container{margin: 120px 240px 150px 390px;gap: 250px;}
+.cross-img-content > p{line-height: 30px;margin-top:24px ;}
+.cross-img-content{text-align: right;}
+.cross-img :nth-child(1){position: relative;}
+.cross-img :nth-child(2){position: absolute;transform: translate(-800px, 400px);}
+
         /* hover section */
 .hover-button{
     background-color: #FFF;
