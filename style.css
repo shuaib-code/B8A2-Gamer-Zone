@@ -14,6 +14,7 @@
 .primary-text-color{color:var(--text-color);}
 .theme-color{color: var(--theme-color);}
 .text-black{color: var(--text-black);}
+.text-footer{color: rgba(255, 255, 255, 0.60);}
 .text-gradient{background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);background-clip: text;-webkit-background-clip: text; -webkit-text-fill-color: transparent;}
 .text-xxl{font-size: var(--text-xxl);}
 .text-xl{font-size: var(--text-xl);}
@@ -31,8 +32,8 @@
 .grid{display: grid;}
 .justify-center{justify-content: center;}
 .align-center{align-items: center;}
-.primary-btn{padding: 21px 40px;border-radius: 48px;color: #FFF;font-size: var(--text-m);font-weight: 600;border: 0px;background-color: var(--theme-color);}
-
+.primary-btn{cursor: pointer;padding: 21px 40px;border-radius: 48px;color: #FFF;font-size: var(--text-m);font-weight: 600;border: 0px;background-color: var(--theme-color);}
+.pointer{cursor: pointer;}
 
 
                       /* nav section */
@@ -87,3 +88,14 @@ header > nav{
 .gamer-content{text-align: right;margin: 95px auto;}
 .gamer-section{background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);}
 .gamer-content :nth-child(2){line-height: 30px;margin: 24px auto 36px auto;}
+
+
+
+          /* footer section */
+footer{background-color: #0B0223;}
+.footer{flex-direction: column;}
+.footer-margin{margin-top: 120px;}
+.footer-bottom{margin-bottom: 130px;}
+.footer-logo{gap: 40px;}
+.page-link > h3{color: #FFF;}
+.page-link > h3, .footer-logo > img, .footer-terms > p{cursor: pointer;}
