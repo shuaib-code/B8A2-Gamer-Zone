@@ -90,6 +90,27 @@ header > nav{
 .gamer-content :nth-child(2){line-height: 30px;margin: 24px auto 36px auto;}
 
 
+        /* hover section */
+.hover-button{
+    background-color: #FFF;
+    border-radius: 50px;
+    border: 3px solid transparent;
+}
+.hover-button > img{margin: 7px;}
+.hover{
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 34px;
+    padding: 120px 240px;
+}
+.hover-button:hover{border: 3px solid var(--theme-color);}
+.hover-button:hover .hover-text{color: var(--theme-color);}
+.hover-text{
+    color: #0B0223;
+    font-weight: 600;
+    margin-right: 10px;
+    white-space: nowrap;
+}
 
           /* footer section */
 footer{background-color: #0B0223;}
