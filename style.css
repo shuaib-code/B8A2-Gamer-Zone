@@ -96,11 +96,11 @@ header > nav{
 .online-games{margin: 120px 240px 0px 240px;}
 .online-games-container{display: flex;gap: 24px;}
 .card-container{position: relative;}
-.overlay-content{position: absolute;text-align: center;width: 337px;height: 395px;border: 5px solid var(--theme-color);border-radius: 5px;transform: translateY(-100%);background-color: rgba(0, 0, 0, 0.20);visibility: hidden;}
+.overlay-content{position: absolute;text-align: center;width: 333px;height: 393px;border: 5px solid var(--theme-color);border-radius: 5px;transform: translateY(-101%);background-color: rgba(0, 0, 0, 0.20);visibility: hidden;}
 .card-container:hover .overlay-content{visibility: visible;}
 .overlay-content :nth-child(1){margin-top: 50%;}
 .overlay-content > img{
-    border: 3px solid white;border-radius:100%;background-color: #ffffff5a;cursor: pointer;
+    border: 3px solid rgba(255, 255, 255, 0.265);border-radius:100%;background-color: #ffffff5a;cursor: pointer;
 }
 
 
@@ -142,3 +142,45 @@ footer{background-color: #0B0223;}
 .footer-logo{gap: 40px;}
 .page-link > h3{color: #FFF;}
 .page-link > h3, .footer-logo > img, .footer-terms > p{cursor: pointer;}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .nav, .link, .banner{flex-direction: column;}
+    header > nav{padding: 50px 10px;}
+    .link :nth-child(1){margin-top: 15px;}
+    .banner{display: grid;}
+    .banner-content{padding: 10px;text-align: center;}
+    .banner-img{margin-right: 0px;}
+    .banner-btn :nth-child(1){margin-left: 30px;}
+    .banner-details :nth-child(3){margin-bottom: 15px;}
+    .banner-img > img{width: 90%;margin-left: 20px;}
+    .banner-details{margin: 0px;}
+    .footer-terms{display: grid;grid-template-columns: repeat(2, 1fr);}
+    .footer-logo, .page-link, .hover{display: grid;grid-template-columns: repeat(3, 1fr);}
+    .hover{padding: 30px 20px;}
+    .cross-img-container{display: grid;margin: 20px;}
+    .cross-img :nth-child(1){width: 70%;margin-bottom: 50px;}
+    .cross-img :nth-child(2){transform: translate(-50px, 250px);width: 150px;}
+    .cross-img-content{text-align: center;}
+    .cross-img-container{gap: 10px;}
+    .online-games{margin: 0px; padding: 10px;}
+    .online-games-container{display: grid;gap: 20px;margin-left: 25px;}
+    .gamer{margin: 0px; padding: 10px;display: grid;}
+    .gamer-content{text-align: center;margin: 0px auto;margin-bottom: 30px;}
+    .gamer :nth-child(1){width: 90%;}
+    .hover{padding: 10px; gap: 5px;}
+    .hover-button > p{font-size: 9;white-space: normal;}
+    .card-text{display: flex;flex-direction: column;align-items: center;}
+}
+@media screen and (min-width: 576px) and (max-width: 1112px) {
+    .nav, .link, .banner, .gamer, .online-games-container, .cross-img-container{flex-direction: column;}
+    .banner-content{padding-left: 100px;}
+    .gamer-content, .cross-img-content{text-align: center;}
+    .cross-img-container{margin: 20px;gap: 20px;margin-top: 40px;}
+    .hover{grid-template-columns: repeat(3, 1fr);padding: 10px;margin-top: 100px;}
+    .cross-img{width: 70%;}
+    .cross-img :nth-child(1){width: 100%;}
+    .cross-img :nth-child(2){width: 20%;transform: translate(-600px, 400px);}
+}
