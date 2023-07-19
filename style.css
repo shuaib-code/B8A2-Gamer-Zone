@@ -29,6 +29,12 @@
 .text-center{text-align: center;}
 .flex{display: flex;}
 .grid{display: grid;}
+.primary-btn{padding: 21px 40px;border-radius: 48px;color: #FFF;font-size: var(--text-m);font-weight: 600;border: 0px;background-color: var(--theme-color);}
+
+
+
+                      /* nav section */
+
 header > nav{
     padding: 38px 240px;
 }
@@ -61,3 +67,14 @@ header > nav{
     align-items: center;
     gap: 16px;
 }
+
+
+
+
+                       /* banner section */
+.banner{align-items: center;}
+.banner-content{padding: 148px 309px 148px 244px;}
+.banner-img{margin-right: 240px;}
+.banner-details{margin-top: 24px;margin-bottom: 41px;}
+.banner-details :nth-child(2){margin: 15px auto;}
+.banner-content{background-image: url(img/Group\ 14.png);background-repeat: no-repeat;}
